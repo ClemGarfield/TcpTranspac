@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="TcpTranspac.Client/TcpTranspac.Client.csproj" Id="5f747ef9-dbf7-4871-847a-21a5bdc539cc" />
+  <Project Path="TcpTranspac.Protocole/TcpTranspac.Protocol.csproj" />
+  <Project Path="TcpTranspac.Sample.Client/TcpTranspac.Sample.Client.csproj" Id="ebf318e7-0123-4cad-9e83-cf343d034585" />
+  <Project Path="TcpTranspac.Sample.Server/TcpTranspac.Sample.Server.csproj" Id="4aa19a74-0550-4b02-8b93-0b0caaa33079" />
+  <Project Path="TcpTranspac.Server/TcpTranspac.Server.csproj" Id="54ff3728-1acb-41a1-adb7-1b723c065f5b" />
+  <Project Path="TcpTranspac.Tests/TcpTranspac.Tests.csproj" Id="c38523e7-fe0e-43a8-9220-1d538cfe4e94" />
+</Solution>

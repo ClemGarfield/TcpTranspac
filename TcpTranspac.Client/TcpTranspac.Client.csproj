@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net10.0</TargetFramework>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+	  <PackageId>TcpTranspac.Client</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Clément Hindié</Authors>
+	  <Company>C.H. Software</Company>
+	  <Description>High-performance binary framing, encoding and decoding for the TcpTranspac protocol.</Description>
+	  <PackageTags>tcp protocol framing crc64 binary</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TcpTranspac.Protocole\TcpTranspac.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>
